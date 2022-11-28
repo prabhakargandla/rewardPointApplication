@@ -1,4 +1,4 @@
-# rewardPointApplication
+# CustomerRewardPointsApplication
 A Spring Boot Web Restful Service for a reward point application
 
 A Reward Point Service made with a Spring boot application
@@ -14,13 +14,13 @@ A Reward Point Service made with a Spring boot application
 2020-06-09 21:01:10.648  INFO 60100 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
 
 Application test
-a.	Open a browser, enter: http://localhost:8080/api/v1/rewards/, then you should get the customer three month reward reports for two customers, each customer has it’s reward point calculated by month. 
-b.	Open a browser, enter: http://localhost:8080/api/v1/rewards/customer/1, then you should get the customer  1’s reward point and group by the month. Here is an example data:
+a.	Open a browser, enter: http://localhost:80801/api/v1/rewards/, then you should get the customer three month reward reports for two customers, each customer has it’s reward point calculated by month. 
+b.	Open a browser, enter: http://localhost:80801/api/v1/rewards/customer/1, then you should get the customer  1’s reward point and group by the month. Here is an example data:
 
 {
 	"customer": {
 		"id": 1,
-		"name": "Mary"
+		"name": "Prabhakar Gandla"
 	},
 	"monthlyTrans": {
 		"MAY": [{
